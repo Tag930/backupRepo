@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Login Test Automation]">
+  <test thread-count="5" verbose="4" name="RetryMultipleFailedCases(failed)">
+    <parameter name="browser" value="facebook"/>
+    <classes>
+      <class name="paramterTest.fbtest">
+        <methods>
+          <include name="LoginFb" invocation-numbers="0"/>
+          <include name="LauncherFb1"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- paramterTest.fbtest -->
+    </classes>
+  </test> <!-- RetryMultipleFailedCases(failed) -->
+</suite> <!-- Failed suite [Login Test Automation] -->

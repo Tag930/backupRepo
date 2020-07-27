@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "TestNG Google all">
+
+ <test name="First TestCases">
+  
+  <classes>
+   <class name="tddframe.ExceptionTimeOutTest" />
+   <class name="tddframe.GoogleTitleTest" />
+   <class name="tddframe.testng1" />
+   
+   
+  </classes>
+
+ </test>
+
+</suite>
