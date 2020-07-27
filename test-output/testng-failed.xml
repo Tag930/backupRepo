@@ -5,7 +5,7 @@
     <classes>
       <class name="ddtexcel.dataprovidertest">
         <methods>
-          <include name="testmn" invocation-numbers="0"/>
+          <include name="testmn"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
